@@ -106,16 +106,16 @@ public class controlFlowProject {
             char petChar3 = pet.charAt(2);
             int petAscii = (int) petChar3;
 
-            int randNum1 = Math.min(modelYear + luckynumber, 99);
+            int randNum1 = Math.min(modelYear + luckynumber, 65);
             // System.out.println(randNum1);
 
             int randNum2 = Math.max(randomNum - int_random1, 0);
             // System.out.println(randNum2);
 
-            int randNum3 = Math.min(petage + modelYear, 99);
+            int randNum3 = Math.min(petage + modelYear, 65);
             // System.out.println(randNum3);
 
-            int randNum4 = Math.min(jerseyNum + petage + luckynumber, 99);
+            int randNum4 = Math.min(jerseyNum + petage + luckynumber, 65);
             // System.out.println(randNum4);
 
             int randNum5 = petAscii;
